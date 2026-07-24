@@ -6,5 +6,5 @@ form.addEventListener('submit', function(event) {
   // Aqui você faria a verificação de usuário/senha
   
   // Redireciona para a nova página
-  window.location.href = "home.html"; 
+  window.location.href = "dashboard.html"; 
 });
