@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Adson">
+    <link rel="stylesheet" href="/CSS/cadastroStyle.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="titulo"><h1>CADASTRO</h1></a>
+    </header>
+   <main class="cadastro-container">
+        <form class="cadastro-card" id="cadastroForm">
+            <div class="input-group">
+                <label for="Nome">Nome</label>
+                <input type="text" name="nome" id="nome" required placeholder="Seu Nome">
+            </div>
+            <div class="input-group">
+                <label for="user">Usuário</label>
+                <input type="email" name="user" id="user" required placeholder="Email">
+            </div>
+            <br>
+            <div class="input-group">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" required placeholder="Senha">
+            </div>
+            <br>
+            <button class="button" type="submit">Enviar</button>
+            <br>
+            <p>Perdeu a conta? <a href="recuperarAcesso.html">Clique aqui</a></p><br>
+            <p>Não possui conta? <a href="cadastro.html">Cadastrar</a></p>
+            
+        </form>
+        <script src="../JS/cadastro.js"></script>
+   </main>
+    <footer>
+        <p>Desenvolvido por Adson <br>2026</p>
+    </footer>
+</body>
+</html>
